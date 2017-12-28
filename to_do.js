@@ -61,10 +61,10 @@ searchbar.addEventListener('keyup',function(e){
    {
        const title = arr[i].firstElementChild.textContent ;
        if(title.toLowerCase().indexOf(term) != -1){
-           books[i].style.display = "block";
+           arr[i].style.display = "block";
        }
        else{              
-        books[i].style.display = "none";
+        arr[i].style.display = "none";
        }
    }
 })
